@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFWA Sacco MS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar"></nav>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" width="20%"/>
+            <p class="para">United Freedom Workers Association</p>
+        </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Features</a>
+                    <div class="dropdown-content">
+                        <a href="#">Contributions</a>
+                        <a href="#">Savings</a>
+                        <a href="#">Loans</a>
+                    </div>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+    </header>
+    <div class="login-container">
+        <form class="login-form">
+            <h2 class="head">Login to UFWA Sacco</h2>
+            <input type="text" placeholder="Username" id="username" required>
+            <input type="password" placeholder="Password" id="password" required>
+            <div class="remember-forgot">
+                <label for="remember-me">
+                    <input type="checkbox" id="remember-me"> <span>Remember me</span>
+                </label>
+            </div>
+            <button type="submit">Login</button>
+            <a href="#" class="forgot-password">
+                <span class="padlock-icon">&#128274;</span> Forgot Password?
+            </a>
+        </form>
+    </div>
+    <footer class="footer">
+        &copy; 2023 United Freedom Workers Association (UFWA) | All Rights Reserved
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgb(248, 187, 74);
+    padding: 20px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(133, 88, 4);
+}
+
+/* Style the header */
+.header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.head{
+    font-family: Baskerville Italic;
+    font-style: italic;
+    color: rgb(133, 88, 4);
+    
+}
+.para{
+    font-size: 13px;
+    margin-left: 0;
+    color: rgb(133, 88, 4);
+}
+.remember-forgot {
+ background: blue ;
+   /* display: flex; */
+   /* justify-content: flex-start; */
+    margin-bottom: 20px; 
+}
+
+.remember-forgot label {
+   /* background: green; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+   /* justify-content: flex-start; */
+    flex-direction: column;
+    align-items: flex-start;
+    /*margin-right: 10px; */
+}
+
+.padlock-icon {
+    font-size: 13px;
+    margin-right: 5px; 
+}
+
+.login-form {
+
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input
+{
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+/*.login-form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px; 
+} */
+
+.login-form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    justify-content: flex-start;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(133, 88, 4);
+}
+
+.footer {
+    background-color: rgb(43, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    text-decoration: none;
+    color: white;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
